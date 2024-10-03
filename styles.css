@@ -36,6 +36,21 @@
     padding: 0 10px;
 }
 
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 #banner {
     display: flex;
     justify-content: space-between;
@@ -111,6 +126,7 @@
 #quotebox p {
     margin-bottom: 20px;
     margin-top: 20px;
+    font-size: 23px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     max-width: 500px;
 }
@@ -129,6 +145,7 @@
     padding: 20px 40px;
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 #actionbox button {
@@ -137,10 +154,9 @@
 }
 
 .copyright {
-    display: flex;
-    align-items: center;
+    align-content: center;
     height: 50px;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     background-color: rgb(49, 49, 58);
     text-align: center;
