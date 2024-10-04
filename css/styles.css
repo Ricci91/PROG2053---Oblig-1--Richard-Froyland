@@ -193,3 +193,26 @@ article {
     box-sizing: border-box;
 }
 
+.weather-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.location-weather {
+    border: 1px solid #333;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.location-weather h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.location-weather p {
+    font-size: 18px;
+    margin: 5px 0;
+}
