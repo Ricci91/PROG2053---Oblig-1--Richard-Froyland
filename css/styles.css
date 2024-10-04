@@ -193,8 +193,3 @@ article {
     box-sizing: border-box;
 }
 
-.clearfix {
-    margin: auto;
-    float: none;
-    clear: both;
-}
