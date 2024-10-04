@@ -1,6 +1,6 @@
 @font-face {
     font-family: RobotoRegular;
-    src: url(fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 * {
@@ -153,15 +153,7 @@
     align-items: center;
 }
 
-.copyright {
-    align-content: center;
-    height: 50px;
-    font-size: 15px;
-    color: white;
-    background-color: rgb(49, 49, 58);
-    text-align: center;
-    padding: 15px;
-}
+
 
 button {
     background-color: #007bff; /* Bootstrap-like blue */
@@ -176,4 +168,33 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.copyright {
+    align-content: center;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(49, 49, 58);
+    text-align: center;
+    padding: 15px;
+    margin: 0 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 30%;
+    padding: 1.5%;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    margin: auto;
+    float: none;
+    clear: both;
 }
